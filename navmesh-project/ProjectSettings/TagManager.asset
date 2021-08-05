@@ -7,6 +7,7 @@ TagManager:
   - Exit
   - Trap
   - Player 2
+  - Tutorial guide
   layers:
   - Default
   - TransparentFX

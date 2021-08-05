@@ -16,9 +16,10 @@ public class Pressurepad : MonoBehaviour
     
     void OnTriggerEnter(Collider other)
     {
-        if(isopened == false) {
+        if(isopened == false) 
+        {
             isopened = true;
-        door.transform.position += new Vector3(0, 4, 0);
+            door.transform.position += new Vector3(0, 4, 0);
         }
     }
 }
